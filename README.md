@@ -38,15 +38,9 @@ this purpose. Each node type is depicted by a different color and size for easy 
 part of the optimal solution are highlighted, providing a clear visual representation of the flow distribution across
 the network.
 
-## Adaptation
-
-You can change the city or area for the analysis by adjusting the coordinates and distance parameters in
-the `generate_city_graph` function. Similarly, you can also change the distribution of node types by altering the number
-of suppliers and consumers.
-
 ## Setup
 
-To get started with MinCostEdges, you'll need to set up your Python environment and install the necessary dependencies.
+To get started with MinFlowCity, you'll need to set up your Python environment and install the necessary dependencies.
 Here are the steps to do that:
 
 ### Installation
@@ -70,3 +64,9 @@ python -m manim -ps main.py MinFlowCity
 
 This will generate the scene and save it as a .png file in the current directory. You can use the `-ql` or `-qk` flags
 to set the output quality to low or high respectively.
+
+### Adaptation
+
+You can change the city or area for by adjusting the coordinates and distance parameters in
+the `generate_city_graph` function. Similarly, you can also change the distribution of node types by altering the number
+of suppliers and consumers.
