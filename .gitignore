@@ -12,6 +12,7 @@ build/
 develop-eggs/
 dist/
 downloads/
+osm_cache/
 eggs/
 .eggs/
 lib/
