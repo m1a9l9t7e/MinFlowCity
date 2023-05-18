@@ -1,14 +1,14 @@
+import time
+import os
 import osmnx as ox
 import networkx as nx
 import random
 from manim import *
-import numpy as np
-import os
 
 DOWNLOAD_PATH = './osm_cache'
 
 
-class MinCostEdges(MovingCameraScene):
+class MinFlowCity(MovingCameraScene):
     def construct(self):
         # Get graph
         nodes, edges = generate_city_graph()
@@ -157,5 +157,5 @@ def load_osm_graph(point, distance):
 
 
 if __name__ == '__main__':
-    scene = MinCostEdges()
+    scene = MinFlowCity()
     scene.render()
